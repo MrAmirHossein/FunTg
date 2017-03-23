@@ -400,11 +400,10 @@ local function sp()
 		}
     return keyboard
 end
-local function About()
+local function about()
                 local keyboard = {}
           keyboard.inline_keyboard = {
             {
-
               {text = "سازنده ربات", url = "https://t.me/Bot_Api"},{text = "همین حالا 5 ستاره دهید", url = "https://t.me/storebot?start=FallGirRobot"},
             },
             {
