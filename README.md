@@ -49,7 +49,8 @@
  git clone https://github.com/MrAmirAlone/FunTg
  
  
- سپس به فایل config.lua رفته و ایدی سودو و توکن ربات و قرار بدید سپس مراحل زیر را دنبال کنید.
+ توکن و ایدی سودو در فایل کانفیگ قرار داده شود
+
 
  cd FunTG && sudo chmod 777 auto.sh && ./auto.sh
  
