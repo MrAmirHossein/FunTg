@@ -7,7 +7,7 @@
 
 [Mehdi](https://t.me/Nero_dev)
 
-آموزش نصب
+# Install Bot
 
 
 
