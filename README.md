@@ -1,16 +1,11 @@
 # FunTgBot
 
+# Info :
+[News Bot Api](https://t.me/NewsBotApi)
 
+[Dev](https://t.me/Bot_Api)
 
-
-
-</pre>
-<h1>چنل ما</h1>
-<a href="https://t.me/beyondteam"><h3>beyond</h3></a>
-<h1>سازنده</h1>
-<a href="https://t.me/Bot_Api"><h3>MR.AmirAlone</h3></a>
-
-
+[Mehdi](https://t.me/Nero_dev)
 
 آموزش نصب
 
