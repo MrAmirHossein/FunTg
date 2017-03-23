@@ -400,7 +400,7 @@ local function sp()
 		}
     return keyboard
 end
-local function about()
+local function About()
                 local keyboard = {}
           keyboard.inline_keyboard = {
             {
@@ -414,7 +414,7 @@ local function about()
               {text = "کانال ربات", url = "https://t.me/BeyondTeam"},{text = "کانال اخبار ربات", url = "https://t.me/NewsBotApi"}
             },
             {
-              {text = "ربات مترجم ما",  url = "https://t.me/TranslateProBot"},{text = "اسپانسر تیم", url = "https://t.me/StoreVps",}
+              {text = "اسپانسر تیم", url = "https://t.me/StoreVps",}
             },
             {
               {text = "بازگشت🔙", callback_data = "/kb"},
