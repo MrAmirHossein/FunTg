@@ -1,3 +1,5 @@
+-- Devloper @Bot_Api
+-- Channel @NewsBotApi
 local triggers = {
 		'^/(contact) (.+)$',
 		'^/(pm) (%d+)', 
@@ -34,3 +36,5 @@ return {
   action = action,
   triggers = triggers,
 }
+-- Devloper @Bot_Api
+-- Channel @NewsBotApi
