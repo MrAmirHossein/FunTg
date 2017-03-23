@@ -1,4 +1,6 @@
-﻿local triggers = {
+-- Devloper @Bot_Api
+-- Channel @NewsBotApi
+local triggers = {
   '^/(start)$',
   '^/(mod)$',
   '^###cb:/(admin)',
@@ -456,31 +458,8 @@ local function mehdi()
 		  }
 	return keyboard
 end
-local function join()
-       local keyboard = {}
-          keyboard.inline_keyboard = {
-		    {
-			  {text = "عضو میشم", url = "https://t.me/NewsBotApi"}
-			},
-	}
-	return keyboard
-end
 local action = function(msg, matches)
--- Join Channel
-res = api.getChatMember("@NewsBotApi", msg.from.id)
- vardump(res)
- if res.result.status == "member" or res.result.status == "administrator" or res.result.status == "creator" then
- else
- local Join = [[😅دوست عزیز شرمنده ام تو در کانال ما عضو نیستی
- اول تو کانال ما عضو شو بعدا ربات رو شروع کن
- دقت کن اگه شروع نکنی نمیتونی از ربات استفاده کنی
- اگه عضو شدی مجددا /start و برای من بفرست تا دکمه هارو واست نمایش بدم😁☺️]]
- local keyboard = join()
- api.sendKeyboard(msg.chat.id, Join, keyboard, true)
-   if true then
- return false 
- end
- end
+
  --start
     if matches[1] == 'start' then
       local Start = [[سلام دوست عزیز به بهترین ربات سرگرمی تلگرام خوش امدید
@@ -772,3 +751,5 @@ end
       triggers = triggers,
 
     }
+-- Devloper @Bot_Api
+-- Channel @NewsBotApi
