@@ -1,6 +1,6 @@
 return {
-	bot_api_key = --[['318057208:AAEWgsLqW-VhoCYhB7rF7DmBN5qn87u6zWg',]] '279226192:AAG4SAGCJe3EeoFTBKIkEHWG2H0UkbgJfLI',
-	admin = 223870582,
+	bot_api_key = 'Token',
+	admin = Id Admin,
 	plugins = {
 		'Admin.lua',
 		'Tools.lua',
