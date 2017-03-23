@@ -1,5 +1,5 @@
 -- Devloper @Bot_Api
--- Channel @NewsBotApi
+-- Channel @NewsBotApi and @BeyondTeam
 local triggers = {
   '^/(start)$',
   '^/(mod)$',
