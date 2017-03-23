@@ -47,7 +47,7 @@
  توکن و ایدی سودو در فایل کانفیگ قرار داده شود
 
 
- cd FunTG && sudo chmod 777 auto.sh && ./auto.sh
+ cd FunTg && sudo chmod 777 auto.sh && ./auto.sh
  
 
 
