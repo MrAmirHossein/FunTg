@@ -509,13 +509,13 @@ local action = function(msg, matches)
         end
 		
 		 if matches[1] == 'doa'then
-           local Doa = HTTPS.request('http://hektor-tm.ir/api/today-Pray/')
+           local Doa = HTTPS.request('http://api-mramirhossein.ml/bot/today-Pray.php')
           local keyboard = doa()
           api.editMessageText(msg.chat.id, msg.message_id, '*'..Doa..'*', keyboard, true)
         end
 		
 		if matches[1] == 'hadis' then
-          local Hadis = HTTPS.request('http://hektor-tm.ir/api/hadis/')
+          local Hadis = HTTPS.request('http://api-mramirhossein.ml/bot/hadis.php')
           local keyboard = hadis()
           api.editMessageText(msg.chat.id, msg.message_id, '*'..Hadis..'*', keyboard, true)
         end
@@ -527,31 +527,31 @@ local action = function(msg, matches)
         end
 		
 		if matches[1] == 'zekr' then
-          local Zekr = HTTPS.request('http://hektor-tm.ir/api/zekr/')
+          local Zekr = HTTPS.request('http://api-mramirhossein.ml/bot/zekr.php')
          local keyboard = zekr()
           api.editMessageText(msg.chat.id, msg.message_id, '*'..Zekr..'*', keyboard, true)
         end
 		
 		if matches[1] == 'love' then
-          local Love = HTTPS.request('http://hektor-tm.ir/api/asheghane/index.php')
+          local Love = HTTPS.request('http://api-mramirhossein.ml/bot/asheghane.php')
          local keyboard = love()
           api.editMessageText(msg.chat.id, msg.message_id, '*'..Love..'*', keyboard, true)
         end
 		
 		if matches[1] == 'relove' then
-          local Love = HTTPS.request('http://hektor-tm.ir/api/asheghane/index.php')
+          local Love = HTTPS.request('http://api-mramirhossein.ml/bot/asheghane.php')
          local keyboard = love()
           api.editMessageText(msg.chat.id, msg.message_id, '*'..Love..'*', keyboard, true)
         end
 		
 		if matches[1] == 'sangin' then
-          local Sangin = HTTPS.request('http://hektor-tm.ir/api/sangin/index.php')
+          local Sangin = HTTPS.request('http://api-mramirhossein.ml/bot/sangin.php')
          local keyboard = sangin()
           api.editMessageText(msg.chat.id, msg.message_id, '*'..Sangin..'*', keyboard, true)
         end
 		
 		if matches[1] == 'resangin' then
-          local Sangin = HTTPS.request('http://hektor-tm.ir/api/sangin/index.php')
+          local Sangin = HTTPS.request('http://api-mramirhossein.ml/bot/sangin.php')
          local keyboard = sangin()
           api.editMessageText(msg.chat.id, msg.message_id, '*'..Sangin..'*', keyboard, true)
         end
@@ -573,13 +573,13 @@ local action = function(msg, matches)
 		  end
 		  
 		  if matches[1] == 'dans' then
-          local Danestania = HTTPS.request('http://hektor-tm.ir/api/danestani/')
+          local Danestania = HTTPS.request('http://api-mramirhossein.ml/bot/danstania.php')
          local keyboard = dans()
           api.editMessageText(msg.chat.id, msg.message_id, '*'..Danestania..'*', keyboard, true)
         end
 		
 		if matches[1] == 'redans' then
-          local Danestania = HTTPS.request('http://hektor-tm.ir/api/danestani/')
+          local Danestania = HTTPS.request('http://api-mramirhossein.ml/bot/danstania.php')
          local keyboard = dans()
           api.editMessageText(msg.chat.id, msg.message_id, '*'..Danestania..'*', keyboard, true)
         end
@@ -601,13 +601,13 @@ local action = function(msg, matches)
 		  end
 		  
 		  if matches[1] == 'tarfand' then
-          local Tarfand = HTTPS.request('http://hektor-tm.ir/api/tarfand/')
+          local Tarfand = HTTPS.request('http://api-mramirhossein.ml/bot/tarfand.php')
           local keyboard = tarfand()
           api.editMessageText(msg.chat.id, msg.message_id, '*'..Tarfand..'*', keyboard, true)
         end
 		
 		 if matches[1] == 'retarfand' then
-          local Tarfand = HTTPS.request('http://hektor-tm.ir/api/tarfand/')
+          local Tarfand = HTTPS.request('http://api-mramirhossein.ml/bot/tarfand.php')
           local keyboard = tarfand()
           api.editMessageText(msg.chat.id, msg.message_id, '*'..Tarfand..'*', keyboard, true)
         end
@@ -625,7 +625,7 @@ local action = function(msg, matches)
 		  end
 		  
 		  if matches[1] == 'joke' then
-          local Joke = HTTPS.request('https://api-mramirhossein.ml/bot/joke.php')
+          local Joke = HTTP.request('http://api-mramirhossein.ml/bot/joke.php')
           local keyboard = joke()
           api.editMessageText(msg.chat.id, msg.message_id, '*'..Joke..'*', keyboard, true)
         end
