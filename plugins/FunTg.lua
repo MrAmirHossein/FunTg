@@ -521,7 +521,7 @@ local action = function(msg, matches)
         end
 		
 		if matches[1] == 'rehadis' then
-          local Hadis = HTTPS.request('http://hektor-tm.ir/api/hadis/')
+          local Hadis = HTTPS.request('http://api-mramirhossein.ml/bot/hadis.php/')
                   local keyboard = hadis()
           api.editMessageText(msg.chat.id, msg.message_id, '*'..Hadis..'*', keyboard, true)
         end
